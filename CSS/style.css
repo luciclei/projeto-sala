@@ -4,17 +4,15 @@
     margin: 0;
 }
 
-body{
-    background-color: #736681;
-}
+
 
 .navbar{
-    background-color: rgb(51, 7, 7);
+    background-color: rgb(5, 161, 135);
     padding: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 10px 0 10px #0f0804;
+    box-shadow: 1px 1px 3px #0f0804;
     /*overflow: hidden;*/
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
@@ -30,11 +28,11 @@ body{
 
 .logo {
     color: white;
-    text-shadow: 1px 1px 5px #dce4eb;
+    text-shadow: 1px 1px 1px #dce4eb;
 }
 
 .logo span {
-   color: #e9a265;
+   color: #d4a57b;
    text-shadow: ;
    font-size: 44px;  
 }
@@ -56,13 +54,15 @@ nav ul li {
     font-size: 20px;
     color: white;
     margin-right: 2rem;
+    font-weight: bold;
     cursor: pointer;
 }
 
 nav ul li:hover{
-    color: #e9a265;
+    font-size: 20px;
+    color: white;
     font-weight: bold;
-    border-bottom: 1px solid;  
+    border-bottom: 3px solid  #d4a57b;
 }
 
 /*.menu-hamburguer {
@@ -113,7 +113,7 @@ header {
 .header-bottom-side-left button {
     padding: 1rem 2rem;
     border: none;
-    background-color: rgb(51, 7, 7);
+    background-color: rgb(5, 161, 135);
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
@@ -127,7 +127,11 @@ header {
 }
 
 .header-bottom-side-left button:hover {
-    background-color: rgb(93, 95, 94);
+    background-color: rgb(5, 161, 135);
+    color:#d4a57b;
+    border: 2px solid #d4a57b;
+    font-size: 1rem;
+    padding: 1rem 2rem;
 }
 
 .header-bottom-side-right {
@@ -147,7 +151,8 @@ main {
 }*/
 
 .bg {
-background-image: radial-gradient(#fff, #111);
+    background-image: radial-gradient(#fff, rgb(5, 161, 135));
+    height: 10px;
 }
 
 .page-inner-content {
@@ -243,7 +248,7 @@ background-image: radial-gradient(#fff, #111);
     align-items: center;
     padding: 2rem 1rem;
     color: #dce4eb;
-    background-color: rgb(51, 7, 7);
+    background-color: rgb(5, 161, 135);
     justify-content: space-around;
 }
 .dowload-options>*{
@@ -252,10 +257,10 @@ background-image: radial-gradient(#fff, #111);
 }
 .dowload-options>h2:first-child{
     font-weight: bold;
-    color: #d6bb1f;
+    color: black;
 }
 .page-inner-conteent p{
-    background-color:  rgb(51, 7, 7);
+    background-color: rgb(5, 161, 135);
     color: #dce4eb;
 }
 .dowload-options>div{
@@ -268,7 +273,7 @@ background-image: radial-gradient(#fff, #111);
     text-align: center;
 }
 .links-footer h2{
-    color: #d6bb1f;
+    color: rgb(0, 0, 0);
 }
 .story-links img {
     width: 130px;
@@ -282,5 +287,4 @@ background-image: radial-gradient(#fff, #111);
 }
 .copyright {
     text-align: center;
-   
 }
